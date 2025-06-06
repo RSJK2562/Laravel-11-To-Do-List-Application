@@ -45,7 +45,7 @@ A modern, responsive to-do list application built with Laravel 11, featuring AJA
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
-   DB_DATABASE=todo_app
+   DB_DATABASE=laravel_todo_app
    DB_USERNAME=your_username
    DB_PASSWORD=your_password
    ```
@@ -82,7 +82,7 @@ database/
 resources/
 ├── views/
 │   ├── layouts/app.blade.php       # Main layout template
-│   └── tasks/index.blade.php       # To-do list interface
+│   └── index.blade.php       # To-do list interface
 routes/
 └── web.php                         # Application routes
 ```
